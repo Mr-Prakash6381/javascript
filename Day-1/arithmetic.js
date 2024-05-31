@@ -1,0 +1,10 @@
+console.log("Welcome");
+a = 10;
+b = 20;
+c = 0;
+console.log("A=10,b=20");
+console.log("A+B=", a + b);
+console.log("A%B=", a % b);
+console.log("A-B=", a - b);
+console.log("A*B=", a * b);
+console.log("A/B=", a / b);
