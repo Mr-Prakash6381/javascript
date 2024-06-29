@@ -15,3 +15,4 @@ d = a.concat(b, c, 25, 45, 35, ["a", "b", "c", "e"]);
 console.log(d);
 
 console.table(d);
+console.log(d);
