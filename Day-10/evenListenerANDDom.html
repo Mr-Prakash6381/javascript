@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>evenListenerANDDom</title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+        body{
+            height: 100px;
+            width: 100vh;
+            
+           
+        }
+        #Section1{
+            background-color: #dbc6c6;
+            color: rgb(34, 30, 30);
+            padding: 30px;
+            border-radius: 15px;
+            width: 700px;
+            margin-top: 250px;
+            margin-left: 150px;
+        }
+        .Section1Div{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 30px;
+        }
+        button{
+            padding: 5px;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: rgb(117, 6, 6);
+            color: white;
+        }
+        #Section2{
+            display: flex;
+            justify-content: center;
+            background-color: #cac6c6;
+            color: rgb(34, 30, 30);
+            padding: 30px;
+            border-radius: 15px;
+            width: 700px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+    </style>
+    </head>
+    <body>
+        <section id="Section1">
+            <div class="Section1Div">
+                <h2>My Checklist</h2>
+                <button id="Section1Addbutton">Add Item</button>
+            </div>
+            <ul id="myList">
+            </ul>
+        </section>
+        <section id="Section2">
+            <div class="Section2Div">
+                <button class=".Section2Bbutton" onclick="toggleModel()">Cloase</button>
+                <div class=".Section2InputDiv">
+                    <input type="text">
+                    <button>Add</button>
+                </div>
+            </div>
+        </section>
+        <script src="./evenListenerANDDom.js"></script>
+    </body>
+</html>
